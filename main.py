@@ -1,8 +1,11 @@
+from core.ui import banner
 from modules.password_checker import check_password
 from modules.network_scanner import scan_network
 from modules.hash_checker import hash_file
 from modules.log_analyzer import analyze_log
 from reports.report_generator import generate_report
+
+banner()
 
 print("=== BlueFox AI Security Toolkit ===")
 
